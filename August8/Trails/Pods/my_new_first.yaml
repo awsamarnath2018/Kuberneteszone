@@ -4,7 +4,7 @@ metadata:
   name: my-new-first-pod
   spec:
    containers:
-    - name: my_first_container
+    -name: my_first_container
     image: nginx
     
 

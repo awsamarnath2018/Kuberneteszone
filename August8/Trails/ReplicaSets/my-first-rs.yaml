@@ -1,4 +1,4 @@
-apiVersion: api
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
  name: my-first-rs
@@ -12,7 +12,7 @@ spec:
     metadata:
      name: my-first-pod
      labels:
-      project: My-project1
+      project: My-Project
       ver: 0.1
     spec:
      image: nginx

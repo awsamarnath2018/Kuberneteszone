@@ -1,0 +1,13 @@
+apiversion: v1.0
+kind: pod
+metadada:
+  name: my_new_first_pod
+  spec:
+   containers:
+    -name: my_first_container
+    image: nginx
+    
+
+     
+
+

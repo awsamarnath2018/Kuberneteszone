@@ -9,13 +9,16 @@ spec:
   selector:
    matchLabels:
     project: My-Project
-    ver: 0.1
+    role: front-end
   template:
     metadata:
       labels:
        project: My-Project
+       role: front-end
+       env: dev
        ver: 0.1
     spec:
+     hostNetwork: true
      containers:
      - name: my-first-container
        image: nginx

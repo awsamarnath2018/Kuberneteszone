@@ -6,8 +6,8 @@ spec:
   replicas: 2
   selector:
    matchLabels:
-   project: My-Project
-   ver: 0.1
+    project: My-Project
+    ver: 0.1
   template:
     metadata:
      name: my-first-pod
@@ -17,5 +17,5 @@ spec:
     spec:
      containers:
      - image: nginx
-     ports:
-     - containerPort: 80
+      ports:
+      - containerPort: 80

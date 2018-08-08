@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
  name: my-first-rs
  labels:
-  version:0.0.1
+  version: 0.0.1
 spec:
   replicas: 2
   selector:

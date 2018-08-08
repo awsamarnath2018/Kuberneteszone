@@ -16,7 +16,6 @@ spec:
        project: My-Project
        role: front-end
        env: dev
-       ver: 0.1
     spec:
      hostNetwork: true
      containers:

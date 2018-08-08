@@ -16,6 +16,7 @@ spec:
       ver: 0.1
     spec:
      containers:
+     - name: my-first-container
      - image: nginx
       ports:
       - containerPort: 80

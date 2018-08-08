@@ -1,4 +1,4 @@
-apiversion: v1.0
+apiversion: v11
 kind: pod
 metadada:
   name: my_new_first_pod

@@ -17,8 +17,7 @@ spec:
        role: front-end
        env: dev
     spec:
-     hostNetwork: true
-     containers:
+      containers:
      - name: my-first-container
        image: nginx
        ports:

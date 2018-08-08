@@ -10,10 +10,9 @@ spec:
     ver: 0.1
   template:
     metadata:
-     name: my-first-pod
-     labels:
-      project: My-Project
-      ver: 0.1
+      labels:
+       project: My-Project
+       ver: 0.1
     spec:
      containers:
      - name: my-first-container
